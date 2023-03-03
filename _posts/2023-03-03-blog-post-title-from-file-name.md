@@ -3,7 +3,6 @@ layout: post
 title: "My First Blog with Tag"
 description: "Test"
 tags: [test]
-comments: true
 share: true
 ---
 
