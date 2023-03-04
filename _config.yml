@@ -19,7 +19,7 @@ instagram_username: "@iamsouparno"
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 # theme: "minima"
-remote_theme: "chrisrhymes/bulma-clean-theme"
+remote_theme: yaoyao-liu/minimal-light
 
 rss: rss
 
