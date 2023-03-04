@@ -18,7 +18,8 @@ instagram_username: "@iamsouparno"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "bulma-clean-theme"
+# theme: "minima"
+remote_theme: "chrisrhymes/bulma-clean-theme"
 
 rss: rss
 
