@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Souparno Bhattacharyya - Resume</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #e2e8f0; /* Lighter blue-gray background */
+            color: #374151; /* Dark gray text */
+            line-height: 1.6;
+        }
+
+        /* Custom Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fadeIn {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+
+        .animate-slideInUp {
+            animation: slideInUp 0.6s ease-out forwards;
+            opacity: 0; /* Start hidden */
+        }
+
+        /* Apply animation delays to sections */
+        .section-delay-1 { animation-delay: 0.2s; }
+        .section-delay-2 { animation-delay: 0.4s; }
+        .section-delay-3 { animation-delay: 0.6s; }
+        .section-delay-4 { animation-delay: 0.8s; }
+        .section-delay-5 { animation-delay: 1.0s; }
+
+        /* Header styling without background image */
+        .header-plain {
+            background-color: #ffffff; /* White background for header */
+            border-bottom: 2px solid #e2e8f0; /* Light border */
+        }
+
+        .header-plain .header-content {
+            color: #374151; /* Dark text color for contrast */
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8 max-w-5xl bg-white shadow-xl rounded-xl my-8 animate-fadeIn">
+
+        <!-- Header Section -->
+        <header class="text-center pb-8 mb-8 animate-slideInUp header-plain">
+            <div class="header-content p-6">
+                <div class="mb-6">
+                    <!-- Headshot -->
+                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQGtni0V0LQY2w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1693980383031?e=2147483647&v=beta&t=zWJTdac9wOgLCjtHj5pk81N7pzbTlBh5wtKTE57XAGY" alt="Souparno Bhattacharyya's Headshot" class="rounded-full mx-auto shadow-md border-4 border-indigo-200 w-40 h-40 object-cover">
+                </div>
+                <h1 class="text-5xl sm:text-6xl font-extrabold mb-3 leading-tight">Souparno Bhattacharyya</h1>
+                <p class="text-2xl sm:text-3xl text-indigo-700 font-semibold mb-6">Product Manager | AI/ML Enthusiast</p>
+                <div class="flex flex-wrap justify-center gap-x-8 gap-y-3 text-lg">
+                    <span class="flex items-center">
+                        <svg class="w-6 h-6 mr-2 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.774a11.037 11.037 0 006.103 6.103l.774-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
+                        (+91)7278436778
+                    </span>
+                    <span class="flex items-center">
+                        <svg class="w-6 h-6 mr-2 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                        souparno.1407@gmail.com
+                    </span>
+                    <a href="https://www.linkedin.com/in/souparnobhattacharyya/" target="_blank" class="flex items-center text-blue-600 hover:text-blue-800 transition-colors duration-300">
+                        <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/souparno1407" target="_blank" class="flex items-center text-purple-600 hover:text-purple-800 transition-colors duration-300">
+                        <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.3-5.466-1.33-5.466-5.931 0-1.31.465-2.381 1.236-3.221-.124-.3-.536-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.003.404 2.293-1.552 3.301-1.23 3.301-1.23.653 1.652.241 2.876.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.61-2.801 5.629-5.476 5.92.42.36.81.109.81 1.649 0 1.19-.011 2.148-.011 2.447 0 .267.18.576.687.479C20.865 21.804 24 17.302 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Summary Section -->
+        <section class="mb-10 animate-slideInUp section-delay-1">
+            <h2 class="text-3xl font-bold text-gray-800 mb-5 border-b-4 border-indigo-500 pb-3">Summary</h2>
+            <p class="text-lg text-gray-700 leading-relaxed bg-indigo-50 p-6 rounded-lg shadow-inner">
+                A highly accomplished Product Manager with a strong background in Computer Science & Technology, currently pursuing an MBA at IIM Bangalore. Proven expertise in driving product innovation, AI integration, and automation across critical storage operations and financial applications. Adept at leading cross-functional teams, optimizing data pipelines, and enhancing user experience, with a track record of significant contributions at NetApp, JP Morgan Chase & Co., and Deutsche Bank. Recognized for exceptional leadership and impactful individual contributions in the tech industry.
+            </p>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="mb-10 animate-slideInUp section-delay-2">
+            <h2 class="text-3xl font-bold text-gray-800 mb-5 border-b-4 border-indigo-500 pb-3">Work Experience</h2>
+            <div class="mb-8 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-1">Product Manager 3</h3>
+                <p class="text-lg text-gray-600 mb-3">NetApp India | Bangalore, India | April 2025 - Present</p>
+                <ul class="list-disc list-inside ml-6 text-gray-700 space-y-2">
+                    <li>Working on Google Cloud NetApp Volumes to transition from hardware-based storage to next-gen cloud-ready software-defined storage ecosystem.</li>
+                    <li>Working on AI integration and automation across critical storage operations like automatic recovery, failover reduction, consistent backups etc., as well as sales enablement.</li>
+                    <li>Providing an unified storage experience through VSA and BlueXP (NetApp's internal software suite) to make data management easier for companies transitioning to the cloud.</li>
+                </ul>
+            </div>
+            <div class="mb-8 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-1">Product Management Intern</h3>
+                <p class="text-lg text-gray-600 mb-3">JP Morgan Chase & Co. | Bangalore, India | April 2024 - May 2024</p>
+                <ul class="list-disc list-inside ml-6 text-gray-700 space-y-2">
+                    <li>Proposed and designed alpha-phase GTM Strategy for JPMC's internal SaaS platform to provide Banking-as-a-Service to tier 2/3 banks.</li>
+                    <li>Performed competitive analysis and industry studies to shortlist 15 features for the initial pilot launch.</li>
+                    <li>Implemented generic workflow mapper from business process definition files, reducing manual conversion efforts by 70% and improving engineering productivity by 30%.</li>
+                    <li>Highlighted workflow tools' automation opportunities using GenAI, researched 10+ Fin Tech companies across 5+ domains.</li>
+                    <li>Advocated unified RPA/BPM tooling strategy (Strategy Growth Office), reduced number of software licenses required across the bank from 50+ to 3.</li>
+                </ul>
+            </div>
+            <div class="mb-8 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-1">Senior Analyst (Associate Software Engineer)</h3>
+                <p class="text-lg text-gray-600 mb-3">Deutsche Bank | Pune, India | July 2021 - June 2023</p>
+                <ul class="list-disc list-inside ml-6 text-gray-700 space-y-2">
+                    <li>Designed global financial AI-ML model repository from scratch, liaised across 10+ divisions within DB to add 500+ unique models to the repository, reduced efforts due to duplicates by 75%.</li>
+                    <li>Engineering data extraction from financial contracts using neural networks and NLP, 100K+ document processing automated annually with 95% accuracy resulting in time savings equivalent to 100 FTE hours daily.</li>
+                    <li>Re-designed the UI of 5+ in-house financial applications using React, achieved friction reduction in the entire usage journey by 20% resulting in an increase of NPS from 6 to 9.</li>
+                    <li>Promoted component re-usability across 7+ divisions, created 10+ Python React shared packages for faster development, used by 1K+ developers across different divisions.</li>
+                    <li>Created unified pricing dashboard across 10+ on-prem cloud-native applications, streamlining the billing process which benefited 2K+ MAU.</li>
+                    <li>Streamlined investment banking data pipeline handling 500+ TB data annually across global workstreams, reduced regulatory risk by enforcing GDPR compliance and leveraging Google's encryption through CMEK.</li>
+                    <li>Strategized European tax operations framework across 5+ countries by automating data extraction using Optical Character Recognition (OCR) technologies and Google Document AI, 100K+ tax documents processed boosting revenue of KYC-Ops team by $\epsilon5M/yr$.</li>
+                    <li>Optimized high-value transaction clearance algorithm by automating extraction and validation of signature from cheques, saved 1K+ man-hours annually.</li>
+                    <li>Co-led AI & NLP-driven banking initiative, conducted 30+ idea brainstorming sessions, launched 5+ apps as part of innovation projects beyond BAU activities.</li>
+                    <li>Administered ML Data Science training to new graduates and lateral hires as part of the CTO Office, 10+ sessions, 25+ modules, total employees benefited across sessions 500+.</li>
+                </ul>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-1">Independent Consultant</h3>
+                <p class="text-lg text-gray-600 mb-3">Udacity | Remote | April 2020 - June 2021</p>
+                <ul class="list-disc list-inside ml-6 text-gray-700 space-y-2">
+                    <li>Worked as a project reviewer and knowledge mentor in the following technology and professional skill areas: AI for Healthcare using Computer Vision, Agile Methodologies, LinkedIn Profile Review and Freelancing Readiness.</li>
+                    <li>Worked in collaboration with Egypt Govt.'s Future Work is Digital scheme.</li>
+                    <li>Upskilled and reviewed projects for 100+ Egyptian students in the post-covid era to make them ready for freelancing marketplaces.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="mb-10 animate-slideInUp section-delay-3">
+            <h2 class="text-3xl font-bold text-gray-800 mb-5 border-b-4 border-indigo-500 pb-3">Education</h2>
+            <div class="mb-6 p-6 bg-white rounded-lg shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-1">Master of Business Administration (MBA)</h3>
+                <p class="text-lg text-gray-600 mb-2">Indian Institute of Management, Bangalore | Bangalore, India</p>
+                <p class="text-gray-700">CGPA: **3.32/4.00** | Senior Co-ordinator - Product Management Club</p>
+            </div>
+            <div class="mb-6 p-6 bg-white rounded-lg shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-1">Bachelor of Technology, Computer Science & Technology</h3>
+                <p class="text-lg text-gray-600 mb-2">Indian Institute of Engineering Science & Technology, Shibpur | Howrah, India | July 2017 - June 2021</p>
+                <p class="text-gray-700">CGPA: **9.51/10.00** (Institute Rank 8)</p>
+            </div>
+            <div class="mb-6 p-6 bg-white rounded-lg shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-1">Class XII (Higher Secondary) - Science</h3>
+                <p class="text-lg text-gray-600 mb-2">South Point High School | Kolkata, India | 2017</p>
+                <p class="text-gray-700">Percentage: **89.6%**</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-1">Class X (Secondary)</h3>
+                <p class="text-lg text-gray-600 mb-2">South Point High School | Kolkata, India | 2015</p>
+                <p class="text-gray-700">Percentage: **88.14%**</p>
+            </div>
+        </section>
+
+        <!-- Projects & Publications Section -->
+        <section class="mb-10 animate-slideInUp section-delay-4">
+            <h2 class="text-3xl font-bold text-gray-800 mb-5 border-b-4 border-indigo-500 pb-3">Projects & Publications</h2>
+            <div class="mb-8 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-2">National Finalist and Pre-Placement Interview Winner, Flipkart Grid 2.0</h3>
+                <p class="text-lg text-gray-600 mb-3">October 2020</p>
+                <ul class="list-disc list-inside ml-6 text-gray-700 space-y-2">
+                    <li>Worked on a ML-based fashion recommender system to make the Flipkart search experience more seamless.</li>
+                    <li>Among the top 50 teams selected nationally to compete in the National Finals of the event.</li>
+                </ul>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-2">A Study of Public Sentiment and Influence of Politics in COVID-19 Related Tweets [Springer]</h3>
+                <p class="text-lg text-gray-600 mb-3">May 2023 (Won the best paper award in International Conference on Computational Intelligence in Pattern Recognition (CIPR) 2021)</p>
+                <ul class="list-disc list-inside ml-6 text-gray-700 space-y-2">
+                    <li>Mined Twitter and compiled a novel COVID-19 dataset to understand the change in public emotions during COVID-19.</li>
+                    <li>Performed sentiment analysis and topic modeling to understand the major topics being discussed on Twitter during the pandemic.</li>
+                    <li>Compared the performance of existing unsupervised classification methods for the task of detecting whether a tweet is medically relevant or politically motivated.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Awards and Achievements Section -->
+        <section class="mb-10 animate-slideInUp section-delay-5">
+            <h2 class="text-3xl font-bold text-gray-800 mb-5 border-b-4 border-indigo-500 pb-3">Awards and Achievements</h2>
+            <div class="mb-8 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-2">India Excellence Award, CTO Office Deutsche Bank</h3>
+                <p class="text-lg text-gray-600 mb-3">Feb 2022</p>
+                <ul class="list-disc list-inside ml-6 text-gray-700 space-y-2">
+                    <li>Exceptional leadership and impactful individual contributions towards the release of a bank-wide cloud-native document management tool.</li>
+                    <li>1/50 employees awarded out of 17000+ employees.</li>
+                </ul>
+            </div>
+            <div class="mb-8 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-2">Institute Merit Scholarship, GAABESU - IIEST Shibpur</h3>
+                <p class="text-lg text-gray-600 mb-3">Apr 2018</p>
+                <ul class="list-disc list-inside ml-6 text-gray-700 space-y-2">
+                    <li>Secured 1st rank in Civil Engineering department in 1st year of studies.</li>
+                    <li>1/6 students to be awarded department change to Computer Science Technology branch.</li>
+                </ul>
+            </div>
+            <div class="mb-8 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-2">All India Rank - 75/2.28L (99.96 percentile), CAT 2022</h3>
+                <p class="text-lg text-gray-600 mb-3"></p>
+                <ul class="list-disc list-inside ml-6 text-gray-700 space-y-2">
+                    <li>Awarded admission offers to IIMs BCLKI and FMS Delhi for their MBA Program.</li>
+                </ul>
+            </div>
+            <div class="mb-8 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-2">All India Rank - 30/1L (99.95 percentile), XAT 2023</h3>
+                <p class="text-lg text-gray-600 mb-3"></p>
+                <ul class="list-disc list-inside ml-6 text-gray-700 space-y-2">
+                    <li>Awarded admission offers to the BM and HRM programs of XLRI Jamshedpur.</li>
+                </ul>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-2">Best Mentor, Udacity</h3>
+                <p class="text-lg text-gray-600 mb-3">Nov 2022</p>
+                <ul class="list-disc list-inside ml-6 text-gray-700 space-y-2">
+                    <li>Worked in collaboration with Egypt Govt.'s Future Work is Digital scheme.</li>
+                    <li>Upskilled and reviewed projects for 100+ Egyptian students in the post-covid era to make them ready for freelancing marketplaces.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Me Section -->
+        <section class="mb-10 animate-slideInUp section-delay-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-5 border-b-4 border-indigo-500 pb-3">Contact Me</h2>
+            <div class="bg-indigo-50 p-8 rounded-lg shadow-md">
+                <p class="text-lg text-gray-700 mb-6">
+                    Interested in collaborating or just want to say hello? Feel free to reach out using the form below!
+                </p>
+                <form id="contactForm" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-lg font-medium text-gray-700 mb-2">Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-lg" placeholder="Your Name" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-lg font-medium text-gray-700 mb-2">Email</label>
+                        <input type="email" id="email" name="email" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-lg" placeholder="your.email@example.com" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="block text-lg font-medium text-gray-700 mb-2">Subject</label>
+                        <input type="text" id="subject" name="subject" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-lg" placeholder="Regarding your resume..." required>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-lg font-medium text-gray-700 mb-2">Message</label>
+                        <textarea id="message" name="message" rows="6" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-lg" placeholder="Type your message here..." required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300 transform hover:scale-105">
+                            Send Message
+                            <svg class="ml-3 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l.684-.342a1 1 0 00.07-1.614L10 8.586l3.476 6.883a1 1 0 00.07 1.614l.684.342a1 1 0 001.169-1.409l-7-14z"></path></svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+
+            // Construct the mailto link
+            const mailtoLink = `mailto:souparno.1407@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+
+            // Open the mail client
+            window.location.href = mailtoLink;
+
+            // Show a message to the user
+            // Using a simple alert for demonstration. In a real app, you might use a custom modal or toast notification.
+            alert('Attempting to open your email client. Please ensure you have one configured to send the message.');
+
+            // Optionally, clear the form after submission
+            this.reset();
+        });
+    </script>
+</body>
+</html>
+:
