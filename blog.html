@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Souparno Bhattacharyya - Blog</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #e2e8f0; /* Lighter blue-gray background */
+            color: #374151; /* Dark gray text */
+            line-height: 1.6;
+        }
+
+        /* Custom Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fadeIn {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+
+        .animate-slideInUp {
+            animation: slideInUp 0.6s ease-out forwards;
+            opacity: 0; /* Start hidden */
+        }
+
+        /* Apply animation delays to sections */
+        .section-delay-1 { animation-delay: 0.2s; }
+        .section-delay-2 { animation-delay: 0.4s; }
+        .section-delay-3 { animation-delay: 0.6s; }
+
+        /* Header styling */
+        .header-plain {
+            background-color: #ffffff; /* White background for header */
+            border-bottom: 2px solid #e2e8f0; /* Light border */
+        }
+
+        .header-plain .header-content {
+            color: #374151; /* Dark text color for contrast */
+        }
+    </style>
+    <!-- Favicon for tab icon -->
+    <link rel="icon" href="https://media.licdn.com/dms/image/v2/D4D03AQGtni0V0LQY2w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1693980383031?e=2147483647&v=beta&t=zWJTdac9wOgLCjtHj5pk81N7pzbTlBh5wtKTE57XAGY" type="image/jpeg">
+</head>
+
+        <!-- Blog Posts Section -->
+        <section class="mb-10 animate-slideInUp section-delay-1">
+            <h2 class="text-3xl font-bold text-gray-800 mb-5 border-b-4 border-indigo-500 pb-3">My Blog Posts</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Blog Post Card 1 -->
+                <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                    <img src="https://placehold.co/400x200/cbd5e1/475569?text=AI+in+Product+Mgmt" alt="AI in Product Management" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">The Future of AI in Product Management</h3>
+                        <p class="text-sm text-gray-600 mb-3">Published on: July 15, 2025</p>
+                        <p class="text-gray-700 leading-relaxed text-sm mb-4">
+                            Artificial Intelligence is rapidly transforming the landscape of product management. This post explores how AI can be leveraged for better market research, personalized user experiences, and automated feature prioritization...
+                        </p>
+                        <a href="blog-post-1.html" class="text-indigo-600 hover:underline font-medium inline-flex items-center">
+                            Read More
+                            <svg class="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Blog Post Card 2 -->
+                <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                    <img src="https://placehold.co/400x200/cbd5e1/475569?text=Cloud+Storage" alt="Cloud Storage" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Demystifying Cloud Storage: A Product Perspective</h3>
+                        <p class="text-sm text-gray-600 mb-3">Published on: June 20, 2025</p>
+                        <p class="text-gray-700 leading-relaxed text-sm mb-4">
+                            Understanding the nuances of cloud storage is crucial for building scalable and resilient products. This article breaks down different cloud storage models, their use cases, and key considerations...
+                        </p>
+                        <a href="#" class="text-indigo-600 hover:underline font-medium inline-flex items-center">
+                            Read More
+                            <svg class="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Blog Post Card 3 -->
+                <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                    <img src="https://placehold.co/400x200/cbd5e1/475569?text=Agile+Methodologies" alt="Agile Methodologies" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Agile Methodologies for Modern Teams</h3>
+                        <p class="text-sm text-gray-600 mb-3">Published on: May 5, 2025</p>
+                        <p class="text-gray-700 leading-relaxed text-sm mb-4">
+                            Agile frameworks have become indispensable for efficient software development. This post provides an overview of popular Agile methodologies like Scrum and Kanban, discussing their benefits and how to implement them...
+                        </p>
+                        <a href="#" class="text-indigo-600 hover:underline font-medium inline-flex items-center">
+                            Read More
+                            <svg class="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+</body>
+</html>
